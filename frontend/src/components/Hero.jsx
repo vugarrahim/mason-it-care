@@ -1,6 +1,7 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
 import { Button } from "./ui/button";
+import heroImage from "../assets/itsupport.jpg";
 
 const scrollTo = (e, href) => {
   e.preventDefault();
@@ -78,7 +79,7 @@ export default function Hero() {
             <div className="absolute -top-4 -left-4 w-24 h-24 border border-ink" />
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/2881229/pexels-photo-2881229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                src={heroImage}]
                 alt="Server room with networking equipment"
                 className="w-full h-[420px] md:h-[520px] object-cover"
                 data-testid="hero-image"
