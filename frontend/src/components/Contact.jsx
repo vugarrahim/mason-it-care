@@ -110,7 +110,7 @@ export default function Contact() {
           </h2>
           <p className="text-white/60 text-base md:text-lg mt-6 max-w-xl leading-relaxed">
             Fill this out and we'll respond within two business hours. For
-            emergencies, call <span className="text-white">(555) 123-4567</span>.
+            emergencies, call <span className="text-white">(513) 663-1331</span>.
           </p>
         </div>
 
