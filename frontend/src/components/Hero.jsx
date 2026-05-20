@@ -79,7 +79,7 @@ export default function Hero() {
             <div className="absolute -top-4 -left-4 w-24 h-24 border border-ink" />
             <div className="relative">
               <img
-                src={heroImage}]
+                src={heroImage}
                 alt="Server room with networking equipment"
                 className="w-full h-[420px] md:h-[520px] object-cover"
                 data-testid="hero-image"
