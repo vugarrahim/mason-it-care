@@ -3,7 +3,6 @@ import React from "react";
 const METRICS = [
   { value: "99.9%", label: "Uptime Guarantee", testid: "metric-uptime" },
   { value: "24/7", label: "Support Available", testid: "metric-support" },
-  { value: "500+", label: "Clients Served", testid: "metric-clients" },
   { value: "<2hr", label: "Avg Response Time", testid: "metric-response" },
 ];
 
